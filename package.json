@@ -1,12 +1,18 @@
 {
   "name": "alexa-batfish",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "batfish start",
+    "build": "batfish build",
+    "serve-static": "batfish serve-static",
+    "write-babelrc": "batfish write-babelrc"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Alexa Memu",
+  "license": "MIT",
+  "dependencies": {
+    "@mapbox/batfish": "^1.9.6",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-helmet": "^5.2.0"
+  }
 }
